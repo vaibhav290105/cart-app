@@ -1,0 +1,21 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 150px;
+  text-align: center;
+}
+
+.product-item img {
+  width: 100px;
+  height: 100px;
+}
+body {
+  background: linear-gradient(135deg, #f06, #4a90e2);
+  height: 100vh;
+}
